@@ -1,5 +1,6 @@
 version: 2.1
 
+dist: bionic
 jobs:
   build-and-test:
     machine: true
