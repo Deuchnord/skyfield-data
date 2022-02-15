@@ -2,7 +2,7 @@
 
 ## master (unreleased)
 
-Nothing here yet.
+* Upgrade `finals2000A.all` file, which has expired, thanks @6ruff for the bug report (#20).
 
 ## 3.0.0 (2020-12-18)
 
