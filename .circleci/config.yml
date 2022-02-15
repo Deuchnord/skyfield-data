@@ -18,7 +18,7 @@ jobs:
           name: "Create TOX virtualenv"
           command: virtualenv TOX --python=`which python2.6`
       - run:
-          command: ./TOX/bin/pip install tox
+          command: ./TOX/bin/pip install tox --trusted-host pypi.org --trusted-host files.pythonhosted.org
           name: "Install tox in TOX venv"
       - run:
           command: ./TOX/bin/tox -c tox-py26.ini
